@@ -1,0 +1,486 @@
+{
+    "sources": [
+        {
+            "DOI": "10.56205/ret.4-1.5",
+            "abstract": "Las islas de calor urbana son un fenómeno global que impacta principalmente a los espacios urbanos, concentrando altas temperaturas en zonas muy específicas de las ciudades donde hay mayor presencia de edificaciones y calles construidas con materiales altamente absorbentes de la radiación y que convierten esa energía en calor superficial. Este fenómeno es medible y cuantificable por medio del uso de imágenes satelitales como las ASTER, de Terra nivel 1 de precisión del terreno corregido y radiancia registrada en el sensor, equipadas con una serie de bandas termales de 90 m de resolución espacial. Preprocesando y procesando estas imágenes satelitales por medio de softwares como QGIS y ArcMAP se puede determinar la temperatura superficial terrestre a través del algoritmo SCP de QGIS. Lo anterior permitió concluir que las islas de calor urbana en el casco urbano del municipio de Santa Cruz de Lorica han aumentado en temperatura y en porcentaje de ocupación en la superficie, para los años 2001, 2007 y 2021.",
+            "annote": "S2ID: 61c8d5c08a41689ee4aa1240f8d9de385d64a96f",
+            "author": [
+                {
+                    "literal": "Andrés Felipe Del Toro Pérez"
+                },
+                {
+                    "literal": "Libia Liliana Julio Galvis"
+                },
+                {
+                    "literal": "Pedro Luis Payares Ramos"
+                },
+                {
+                    "literal": "Hugo Alberto Villadiego Martinez"
+                }
+            ],
+            "container-title": "Revista Environment &amp; Technology",
+            "id": "andresfelipedeltoroperezIslasCalorUrbano2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "title": "Islas de calor urbano en el municipio de Santa Cruz de Lorica, Colombia, entre los años 2001, 2007 y 2021, caso de aplicación con imágenes satelitales ASTER",
+            "type": "article-journal"
+        },
+        {
+            "abstract": "Comision Nacional de Investigacion Cientifica y Tecnologica (CONICYT) CONICYT FONDECYT 1161809 Publication Development Fund initiative of the Universidad Mayor",
+            "annote": "MAG ID: 3110471145",
+            "author": [
+                {
+                    "literal": "Daniel Montaner-Fernández"
+                },
+                {
+                    "family": "Montaner-Fernández",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Morales",
+                    "given": "Luis"
+                },
+                {
+                    "literal": "Luis Morales-Salinas"
+                },
+                {
+                    "family": "Morales-Salinas",
+                    "given": "Luis"
+                },
+                {
+                    "family": "Sobrino",
+                    "given": "Sobrino"
+                },
+                {
+                    "literal": "José A. Sobrino"
+                },
+                {
+                    "family": "Rodriguez",
+                    "given": "José Sobrino"
+                },
+                {
+                    "literal": "Luz Alicia Cárdenas-Jirón"
+                },
+                {
+                    "family": "Cárdenas-Jirón",
+                    "given": "Luz"
+                },
+                {
+                    "literal": "Alfredo Huete"
+                },
+                {
+                    "family": "Huete",
+                    "given": "Alfredo"
+                },
+                {
+                    "literal": "Guillermo Fuentes-Jaque"
+                },
+                {
+                    "family": "Fuentes-Jaque",
+                    "given": "Guillermo"
+                },
+                {
+                    "literal": "Waldo Pérez-Martínez"
+                },
+                {
+                    "family": "Pérez-Martínez",
+                    "given": "Waldo"
+                },
+                {
+                    "literal": "Julián Cabezas"
+                },
+                {
+                    "literal": "Julian Cabezas"
+                },
+                {
+                    "family": "Cabezas",
+                    "given": "Julian"
+                }
+            ],
+            "container-title": "Remote Sensing",
+            "id": "danielmontaner-fernandezSpatioTemporalVariationUrban2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "3345",
+            "title": "Spatio-Temporal Variation of the Urban Heat Island in Santiago, Chile during Summers 2005-2017",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "DOI": "10.3390/rs12172713",
+            "abstract": "Urban heat islands (UHI) can lead to multiple adverse impacts, including increased air pollution, morbidity, and energy consumption. The association between UHI effects and land cover characteristics has been extensively studied but is insufficiently understood in inland cities due to their unique urban environments. This study sought to investigate the spatiotemporal variations of the thermal environment and their relationships with land cover composition and configuration in Xi’an, the largest city in northwestern China. Land cover maps were classified and land surface temperature (LST) was estimated using Landsat imagery in six time periods from 1995 to 2020. The variations of surface heat island were captured using multi-temporal LST data and a surface urban heat island intensity (SUHII) indicator. The relationship between land cover features and land surface temperature was analyzed through multi-resolution grids and correlation analysis. The results showed that mean SUHII in the study area increased from 0.683 ^\\circC in 1995 to 2.759 ^\\circC in 2020. The densities of impervious surfaces had a stronger impact on LST than green space, with Pearson’s correlation coefficient r ranging from 0.59 to 0.97. The correlation between normalized difference impervious surface index and LST was enhanced with the enlargement of the grid cell size. The correlations between normalized difference vegetation index and LST reached maxima and stabilized at grid cell sizes of 210 and 240 m. Increasing the total area and aggregation level of urban green space alleviated the negative impacts of UHI in the study area. Our results also highlight the necessity of multi-scale analysis for examining the relationships between landscape configuration metrics and LST. These findings improved our understanding of the spatiotemporal variation of the surface urban heat island effect and its relationship with land cover features in a major inland city of China.",
+            "annote": "MAG ID: 3080669536",
+            "author": [
+                {
+                    "literal": "Linlin Lu"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Linlin"
+                },
+                {
+                    "literal": "Qihao Weng"
+                },
+                {
+                    "family": "Weng",
+                    "given": "Qihao"
+                },
+                {
+                    "family": "Weng",
+                    "given": "Qihao"
+                },
+                {
+                    "literal": "Qihao Weng"
+                },
+                {
+                    "literal": "Qihao Weng"
+                },
+                {
+                    "literal": "Da Xiao"
+                },
+                {
+                    "family": "Xiao",
+                    "given": "Da"
+                },
+                {
+                    "literal": "Huadong Guo"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Huadong"
+                },
+                {
+                    "literal": "Qingting Li"
+                },
+                {
+                    "family": "Li",
+                    "given": "Qingting"
+                },
+                {
+                    "literal": "Hui Wang"
+                },
+                {
+                    "family": "Hui",
+                    "given": "Wenhua"
+                }
+            ],
+            "container-title": "Remote Sensing",
+            "id": "linlinluSpatiotemporalVariationSurface2020",
+            "issue": "17",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "2713",
+            "title": "Spatiotemporal Variation of Surface Urban Heat Islands in Relation to Land Cover Composition and Configuration: A Multi-Scale Case Study of Xi’an, China",
+            "title-short": "Spatiotemporal Variation of Surface Urban Heat Islands in Relation to Land Cover Composition and Configuration",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "DOI": "10.1080/01431160801908137",
+            "abstract": "This work addresses the remotely sensed urban heat sink formation in Santiago City, Chile. The main aim was to analyse the relationship that surface temperature exhibits with land cover types, as well as with vegetation cover fraction, surface moisture and albedo of Santiago City and its rural surroundings. Information was extracted from the processing of Landsat Enhanced Thematic Mapper Plus (ETM+) data. Surface temperature of the main land cover classes and correlation coefficients between surface temperature and the above-mentioned surface parameters were analysed. The results show that the hottest surfaces are mainly concentrated in the northern rural valley, wherein the predominance of bare or sparsely vegetated land covers determine a low vegetation cover fraction and surface moisture content. The correlation coefficients obtained confirm the higher warming rate that the rural valley exhibits in comparision with the city temperatures at the image acquisition time, which is one of the main causes of urban heat sink formation.",
+            "annote": "MAG ID: 2169526185",
+            "author": [
+                {
+                    "literal": "Marco A. Peña"
+                },
+                {
+                    "family": "Peña",
+                    "given": "Marco A."
+                }
+            ],
+            "container-title": "Journal of remote sensing",
+            "id": "marcoa.penaRelationshipsRemotelySensed2008",
+            "issue": "15",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008,
+                        8
+                    ]
+                ]
+            },
+            "page": "4385-4404",
+            "title": "Relationships between remotely sensed surface parameters associated with the urban heat sink formation in Santiago, Chile",
+            "type": "article-journal",
+            "volume": "29"
+        },
+        {
+            "DOI": "10.3390/rs14092164",
+            "abstract": "Understanding the spatiotemporal patterns of urban heat islands and the factors that influence this phenomenon can help to alleviate the heat stress exacerbated by urban warming and strengthen heat-related urban resilience, thereby contributing to the achievement of the United Nations Sustainable Development Goals. The association between surface urban heat island (SUHI) effects and land use/land cover features has been studied extensively, but the situation in tropical cities is not well-understood due to the lack of consistent data. This study aimed to explore land use/land cover (LULC) changes and their impact on the urban thermal environment in a tropical megacity—Karachi, Pakistan. Land cover maps were produced, and the land surface temperature (LST) was estimated using Landsat images from five different years over the period 2000–2020. The surface urban heat island intensity (SUHII) was then quantified based on the LST data. Statistical analyses, including geographically weighted regression (GWR) and correlation analyses, were performed in order to analyze the relationship between the land cover composition and LST. The results indicated that the built-up area of Karachi increased from 97.6 km^2 to 325.33 km^2 during the period 2000–2020. Among the different land cover types, the areas classified as built-up or bare land exhibited the highest LST, and a change from vegetation to bare land led to an increase in LST. The correlation analysis indicated that the correlation coefficients between the normalized difference built-up index (NDBI) and LST ranged from 0.14 to 0.18 between 2000 and 2020 and that NDBI plays a dominant role in influencing the LST. The GWR analysis revealed the spatial variation in the association between the land cover composition and the SUHII. Parks with large areas of medium- and high-density vegetation play a significant role in regulating the thermal environment, whereas the scattered vegetation patches in the urban core do not have a significant relationship with the LST. These findings can be used to inform adaptive land use planning that aims to mitigate the effects of the UHI and aid efforts to achieve sustainable urban growth.",
+            "annote": "MAG ID: 4225281629",
+            "author": [
+                {
+                    "literal": "Muhammad Fahad Baqa"
+                },
+                {
+                    "family": "Baqa",
+                    "given": "Muhammad Fahad"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Linlin"
+                },
+                {
+                    "literal": "Linlin Lu"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Lin-lin"
+                },
+                {
+                    "literal": "Chen Fang"
+                },
+                {
+                    "literal": "Fang Chen"
+                },
+                {
+                    "literal": "Syed Nawaz-ul-Huda"
+                },
+                {
+                    "family": "Nawaz-ul-Huda",
+                    "given": "Syed"
+                },
+                {
+                    "literal": "Luyang Pan"
+                },
+                {
+                    "literal": "Luyang Pan"
+                },
+                {
+                    "literal": "Aqil Tariq"
+                },
+                {
+                    "family": "Tariq",
+                    "given": "Aqil"
+                },
+                {
+                    "family": "Qureshi",
+                    "given": "Salman"
+                },
+                {
+                    "literal": "Salman Qureshi"
+                },
+                {
+                    "family": "Inostroza",
+                    "given": "Luis"
+                },
+                {
+                    "literal": "Bin Li"
+                },
+                {
+                    "literal": "Bin Li"
+                },
+                {
+                    "literal": "Qingting Li"
+                },
+                {
+                    "literal": "Qingting Li"
+                }
+            ],
+            "container-title": "Remote Sensing",
+            "id": "muhammadfahadbaqaCharacterizingSpatiotemporalVariations2022",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        4
+                    ]
+                ]
+            },
+            "page": "2164-2164",
+            "title": "Characterizing Spatiotemporal Variations in the Urban Thermal Environment Related to Land Cover Changes in Karachi, Pakistan, from 2000 to 2020",
+            "type": "article-journal",
+            "volume": "14"
+        },
+        {
+            "DOI": "10.1016/j.rse.2003.11.005",
+            "abstract": "Remote sensing of urban heat islands (UHIs) has traditionally used the Normalized Difference Vegetation Index (NDVI) as the indicator of vegetation abundance to estimate the land surface temperature (LST)–vegetation relationship. This study investigates the applicability of vegetation fraction derived from a spectral mixture model as an alternative indicator of vegetation abundance. This is based on examination of a Landsat Enhanced Thematic Mapper Plus (ETM+) image of Indianapolis City, IN, USA, acquired on June 22, 2002. The transformed ETM+ image was unmixed into three fraction images (green vegetation, dry soil, and shade) with a constrained least-square solution. These fraction images were then used for land cover classification based on a hybrid classification procedure that combined maximum likelihood and decision tree algorithms. Results demonstrate that LST possessed a slightly stronger negative correlation with the unmixed vegetation fraction than with NDVI for all land cover types across the spatial resolution (30 to 960 m). Correlations reached their strongest at the 120-m resolution, which is believed to be the operational scale of LST, NDVI, and vegetation fraction images. Fractal analysis of image texture shows that the complexity of these images increased initially with pixel aggregation and peaked around 120 m, but decreased with further aggregation. The spatial variability of texture in LST was positively correlated with those in NDVI and in vegetation fraction. The interplay between thermal and vegetation dynamics in the context of different land cover types leads to the variations in spectral radiance and texture in LST. These variations are also present in the other imagery, and are responsible for the spatial patterns of urban heat islands. It is suggested that the areal measure of vegetation abundance by unmixed vegetation fraction has a more direct correspondence with the radiative, thermal, and moisture properties of the Earth’s surface that determine LST.",
+            "annote": "MAG ID: 2161241309",
+            "author": [
+                {
+                    "literal": "Qihao Weng"
+                },
+                {
+                    "family": "Weng",
+                    "given": "Qihao"
+                },
+                {
+                    "literal": "Dengsheng Lu"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Dengsheng"
+                },
+                {
+                    "literal": "Jacquelyn Schubring"
+                },
+                {
+                    "family": "Schubring",
+                    "given": "Jacquelyn"
+                }
+            ],
+            "container-title": "Remote Sensing of Environment",
+            "id": "qihaowengEstimationLandSurface2004",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004,
+                        2
+                    ]
+                ]
+            },
+            "page": "467-483",
+            "title": "Estimation of land surface temperature-vegetation abundance relationship for urban heat island studies",
+            "type": "article-journal",
+            "volume": "89"
+        },
+        {
+            "DOI": "10.1371/journal.pone.0162464",
+            "PMCID": "5015864",
+            "PMID": "27606592",
+            "abstract": "Climate change will worsen the high levels of urban vulnerability in Latin American cities due to specific environmental stressors. Some impacts of climate change, such as high temperatures in urban environments, have not yet been addressed through adaptation strategies, which are based on poorly supported data. These impacts remain outside the scope of urban planning. New spatially explicit approaches that identify highly vulnerable urban areas and include specific adaptation requirements are needed in current urban planning practices to cope with heat hazards. In this paper, a heat vulnerability index is proposed for Santiago, Chile. The index was created using a GIS-based spatial information system and was constructed from spatially explicit indexes for exposure, sensitivity and adaptive capacity levels derived from remote sensing data and socio-economic information assessed via principal component analysis (PCA). The objective of this study is to determine the levels of heat vulnerability at local scales by providing insights into these indexes at the intra city scale. The results reveal a spatial pattern of heat vulnerability with strong variations among individual spatial indexes. While exposure and adaptive capacities depict a clear spatial pattern, sensitivity follows a complex spatial distribution. These conditions change when examining PCA results, showing that sensitivity is more robust than exposure and adaptive capacity. These indexes can be used both for urban planning purposes and for proposing specific policies and measures that can help minimize heat hazards in highly dynamic urban areas. The proposed methodology can be applied to other Latin American cities to support policy making.",
+            "annote": "MAG ID: 2511428015",
+            "author": [
+                {
+                    "family": "Qureshi",
+                    "given": "Salman"
+                },
+                {
+                    "literal": "Luis Inostroza"
+                },
+                {
+                    "family": "Inostroza",
+                    "given": "Luis"
+                },
+                {
+                    "literal": "Massimo Palme"
+                },
+                {
+                    "family": "Palme",
+                    "given": "Massimo"
+                },
+                {
+                    "literal": "Francisco de la Barrera"
+                },
+                {
+                    "family": "Barrera",
+                    "given": "Francisco"
+                },
+                {
+                    "family": "Barrera",
+                    "given": "Francisco",
+                    "non-dropping-particle": "de la"
+                }
+            ],
+            "container-title": "PLOS ONE",
+            "id": "qureshiHeatVulnerabilityIndex2016",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        9
+                    ]
+                ]
+            },
+            "title": "A Heat Vulnerability Index: Spatial Patterns of Exposure, Sensitivity and Adaptive Capacity for Santiago de Chile.",
+            "title-short": "A Heat Vulnerability Index",
+            "type": "article-journal",
+            "volume": "11"
+        },
+        {
+            "DOI": "10.4067/S0718-34022014000100009",
+            "ISSN": "0718-3402",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Sarricolea Espinoza",
+                    "given": "Pablo"
+                },
+                {
+                    "family": "Martín-Vide",
+                    "given": "Javier"
+                }
+            ],
+            "container-title": "Revista de geografía Norte Grande",
+            "id": "sarricoleaespinozaEstudioIslaCalor2014",
+            "issue": "57",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        5
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "123-141",
+            "title": "El estudio de la Isla de Calor Urbana de Superficie del Área Metropolitana de Santiago de Chile con imágenes Terra-MODIS y Análisis de Componentes Principales",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.4067/S0718-34022014000100009",
+            "ISSN": "0718-3402",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        25
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Sarricolea Espinoza",
+                    "given": "Pablo"
+                },
+                {
+                    "family": "Martín-Vide",
+                    "given": "Javier"
+                }
+            ],
+            "container-title": "Revista de geografía Norte Grande",
+            "id": "sarricoleaespinozaEstudioIslaCalor2014a",
+            "issue": "57",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        5
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "123-141",
+            "title": "El estudio de la Isla de Calor Urbana de Superficie del Área Metropolitana de Santiago de Chile con imágenes Terra-MODIS y Análisis de Componentes Principales",
+            "type": "article-journal"
+        }
+    ],
+    "project_biblios": []
+}

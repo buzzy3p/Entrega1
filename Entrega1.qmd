@@ -1,0 +1,30 @@
+---
+title: "Entrega1"
+author: "Zvonimir Marjanovic"
+format: html
+editor: visual
+bibliography: Clase_OFC.bib
+link-citations: true
+---
+
+## Caracterización y evolución de las ICUs del AMS a partir de la diferencia entre las temperaturas superficiales diurnas y nocturnas a partir de las imagenes Landsat para los años 2005, 2010, 2015 y 2020.
+
+## **Introducción**
+
+Las Islas de Calor Urbano (ICUs), tal como describe [@sarricoleaespinozaEstudioIslaCalor2014a] son un fenómeno de climatología urbana, en el cual uno o más sectores al interior de una ciudad presentan una temperatura diferente al de su área circundante. Este fenómeno ha sido medido tradicionalmente por estaciones meteorológicas, pero también, mediante técnicas de teledetección, a partir del cálculo de la temperatura superficial en un área de estudio en particular.
+
+Un estudio realizado por [@ernandezSpatioTemporalVariationUrban2020] en el Area Metropolitana de Santiago  (AMS), con datos obtenidos a partir de imágenes de satelitales de espectro radiómetro de resolución moderada (MODIS) y datos de nueve estaciones meteorológicas, entre los veranos de los años 2005 al 2017, logro demostrar (entre otros hallazgos) a una relación lineal entre la temperatura superficial, calculada a partir de las imágenes satelitales, y la temperatura del aire, calculada a parir de las estaciones meteorológicas. La existencia entre una relación lineal entre estas dos variables es importante, porque sugiere que la información capturada por los satélites puede ser utilizada como un indicador útil de la temperatura del aire en la superficie terrestre.
+
+Analizando la relación que la temperatura superficial tiene con los tipos de cobertura terrestre, así como con la fracción de cobertura vegetal, la humedad superficial y el albedo de la ciudad de Santiago y sus alrededores rurales [@marcoa.penaRelationshipsRemotelySensed2008] ha comprobado que las edificaciones, la presencia de vegetación y la materialidad de las construcciones son los principales disparadores de la ICUs al interior del AMS. Para determinar esto, el autor extrajo información del procesamiento de datos del sensor Landsat Enhanced Thematic Mapper Plus (ETM+), los cuales utilizo para analizar la temperatura superficial de las principales clases de cobertura terrestre y los coeficientes de correlación entre la temperatura y los parámetros superficiales mencionados anteriormente. Sumado a los disparadores de las ICU al interior del AMS, Los resultados muestran que las superficies más calientes están principalmente concentradas en el valle rural del norte, donde la predominancia de coberturas de tierra desnuda o escasamente vegetadas determina una baja fracción de cobertura vegetal y contenido de humedad superficial. Los coeficientes de correlación obtenidos confirman la tasa de calentamiento más alta que exhibe el valle rural en comparación con las temperaturas urbanas en el momento de adquisición de la imagen, lo que es una de las principales causas de la formación del foco de calor urbano.
+
+Los estudios realizados por [@sarricoleaespinozaEstudioIslaCalor2014]; [@marcoa.penaRelationshipsRemotelySensed2008]; [@danielmontaner-fernandezSpatioTemporalVariationUrban2020]; mencionados anteriormente, como tambien los estudios ralizados por [@qureshiHeatVulnerabilityIndex2016]; [@muhammadfahadbaqaCharacterizingSpatiotemporalVariations2022]; [@andresfelipedeltoroperezIslasCalorUrbano2023] destacan en la contribución que hacen a la comprensión del fenómeno de las ICUs, entre los cuales destacan sus causas, distribuciones y afectaciones para el bienestar térmico de los habitantes de la ciudad.
+
+Tienen en común todas las investigaciones citadas hasta el momento (como también las conforman la bibliografía general del presente tema de investigación) que han trabajado la elaboración de ICUs mediante imágenes satelitales capturadas durante el día y/o la noche, principalmente a horas a las que pasa el satélite por el área de estudio. Esto tiene el beneficio de que se pueden obtener la información radiométrica capturada por los censores para construir la temperatura superficial del área de estudio, dilucidando así sus diferencias para el momento en que haya sido capturada la imagen. Pero, al ser imágenes que no son capturadas necesariamente en los momentos de mayor retención y liberación de radiación por parte de los materiales urbanos, es difícil poder hacer una caracterización lo suficientemente representativa respecto a las diferencias térmicas de las ICUs y su distribución en la ciudad.
+
+**Problema de investigacion**
+
+La presente propuesta de investigación, tiene por objetivo realizar una caracterización de las Islas de Calor Urbano (ICUs) al interior del Área Metropolitana de Santiago (AMS), mediante la construcción de un delta sobre la temperatura superficial diurna y nocturna a partir de imágenes satelitales Aster, para los años 2005, 2010, 2015 y 2020.
+
+En primera instancia, observar las diferencias térmicas en los diferentes materiales urbanos entre el día y la noche, nos puede permitir observar las diferencias entre las temperaturas al interior de la ciudad y la distribución que estas tienen, logrando así, caracterizar de manera representativa con la dinamica climatica , la presencia de ICUs y sectores críticos al interior de la ciudad.
+
+Una vez caracterizadas las ICUs, se pretende comparar la evolución que estas han tenido entre los años mencionados, para así poder contrastar como ha variado la situación climática de la ciudad en el último tiempo.

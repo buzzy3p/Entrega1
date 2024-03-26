@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Zvonimir Marjanovic">
+
+<title>Entrega1</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="Entrega1_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Entrega1_files/libs/quarto-html/quarto.js"></script>
+<script src="Entrega1_files/libs/quarto-html/popper.min.js"></script>
+<script src="Entrega1_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Entrega1_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Entrega1_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Entrega1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Entrega1_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Entrega1_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Entrega1_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Entrega1</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Zvonimir Marjanovic </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="caracterización-y-evolución-de-las-icus-del-ams-a-partir-de-la-diferencia-entre-las-temperaturas-superficiales-diurnas-y-nocturnas-a-partir-de-las-imagenes-landsat-para-los-años-2005-2010-2015-y-2020." class="level2">
+<h2 class="anchored" data-anchor-id="caracterización-y-evolución-de-las-icus-del-ams-a-partir-de-la-diferencia-entre-las-temperaturas-superficiales-diurnas-y-nocturnas-a-partir-de-las-imagenes-landsat-para-los-años-2005-2010-2015-y-2020.">Caracterización y evolución de las ICUs del AMS a partir de la diferencia entre las temperaturas superficiales diurnas y nocturnas a partir de las imagenes Landsat para los años 2005, 2010, 2015 y 2020.</h2>
+</section>
+<section id="introducción" class="level2">
+<h2 class="anchored" data-anchor-id="introducción"><strong>Introducción</strong></h2>
+<p>Las Islas de Calor Urbano (ICUs), tal como describe <span class="citation" data-cites="sarricoleaespinozaEstudioIslaCalor2014a">(<a href="#ref-sarricoleaespinozaEstudioIslaCalor2014a" role="doc-biblioref">Sarricolea Espinoza and Martín-Vide 2014a</a>)</span> son un fenómeno de climatología urbana, en el cual uno o más sectores al interior de una ciudad presentan una temperatura diferente al de su área circundante. Este fenómeno ha sido medido tradicionalmente por estaciones meteorológicas, pero también, mediante técnicas de teledetección, a partir del cálculo de la temperatura superficial en un área de estudio en particular.</p>
+<p>Un estudio realizado por <span class="citation" data-cites="ernandezSpatioTemporalVariationUrban2020">(<a href="#ref-ernandezSpatioTemporalVariationUrban2020" role="doc-biblioref"><strong>ernandezSpatioTemporalVariationUrban2020?</strong></a>)</span> en el Area Metropolitana de Santiago &nbsp;(AMS), con datos obtenidos a partir de imágenes de satelitales de espectro radiómetro de resolución moderada (MODIS) y datos de nueve estaciones meteorológicas, entre los veranos de los años 2005 al 2017, logro demostrar (entre otros hallazgos) a una relación lineal entre la temperatura superficial, calculada a partir de las imágenes satelitales, y la temperatura del aire, calculada a parir de las estaciones meteorológicas. La existencia entre una relación lineal entre estas dos variables es importante, porque sugiere que la información capturada por los satélites puede ser utilizada como un indicador útil de la temperatura del aire en la superficie terrestre.</p>
+<p>Analizando la relación que la temperatura superficial tiene con los tipos de cobertura terrestre, así como con la fracción de cobertura vegetal, la humedad superficial y el albedo de la ciudad de Santiago y sus alrededores rurales <span class="citation" data-cites="marcoa.penaRelationshipsRemotelySensed2008">(<a href="#ref-marcoa.penaRelationshipsRemotelySensed2008" role="doc-biblioref">Marco A. Peña and Peña 2008</a>)</span> ha comprobado que las edificaciones, la presencia de vegetación y la materialidad de las construcciones son los principales disparadores de la ICUs al interior del AMS. Para determinar esto, el autor extrajo información del procesamiento de datos del sensor Landsat Enhanced Thematic Mapper Plus (ETM+), los cuales utilizo para analizar la temperatura superficial de las principales clases de cobertura terrestre y los coeficientes de correlación entre la temperatura y los parámetros superficiales mencionados anteriormente. Sumado a los disparadores de las ICU al interior del AMS, Los resultados muestran que las superficies más calientes están principalmente concentradas en el valle rural del norte, donde la predominancia de coberturas de tierra desnuda o escasamente vegetadas determina una baja fracción de cobertura vegetal y contenido de humedad superficial. Los coeficientes de correlación obtenidos confirman la tasa de calentamiento más alta que exhibe el valle rural en comparación con las temperaturas urbanas en el momento de adquisición de la imagen, lo que es una de las principales causas de la formación del foco de calor urbano.</p>
+<p>Los estudios realizados por <span class="citation" data-cites="sarricoleaespinozaEstudioIslaCalor2014">(<a href="#ref-sarricoleaespinozaEstudioIslaCalor2014" role="doc-biblioref">Sarricolea Espinoza and Martín-Vide 2014b</a>)</span>; <span class="citation" data-cites="marcoa.penaRelationshipsRemotelySensed2008">(<a href="#ref-marcoa.penaRelationshipsRemotelySensed2008" role="doc-biblioref">Marco A. Peña and Peña 2008</a>)</span>; <span class="citation" data-cites="danielmontaner-fernandezSpatioTemporalVariationUrban2020">(<a href="#ref-danielmontaner-fernandezSpatioTemporalVariationUrban2020" role="doc-biblioref">Daniel Montaner-Fernández et al. 2020</a>)</span>; mencionados anteriormente, como tambien los estudios ralizados por <span class="citation" data-cites="qureshiHeatVulnerabilityIndex2016">(<a href="#ref-qureshiHeatVulnerabilityIndex2016" role="doc-biblioref">Qureshi et al. 2016</a>)</span>; <span class="citation" data-cites="muhammadfahadbaqaCharacterizingSpatiotemporalVariations2022">(<a href="#ref-muhammadfahadbaqaCharacterizingSpatiotemporalVariations2022" role="doc-biblioref">Muhammad Fahad Baqa et al. 2022</a>)</span>; <span class="citation" data-cites="andresfelipedeltoroperezIslasCalorUrbano2023">(<a href="#ref-andresfelipedeltoroperezIslasCalorUrbano2023" role="doc-biblioref">Andrés Felipe Del Toro Pérez et al. 2023</a>)</span> destacan en la contribución que hacen a la comprensión del fenómeno de las ICUs, entre los cuales destacan sus causas, distribuciones y afectaciones para el bienestar térmico de los habitantes de la ciudad.</p>
+<p>Tienen en común todas las investigaciones citadas hasta el momento (como también las conforman la bibliografía general del presente tema de investigación) que han trabajado la elaboración de ICUs mediante imágenes satelitales capturadas durante el día y/o la noche, principalmente a horas a las que pasa el satélite por el área de estudio. Esto tiene el beneficio de que se pueden obtener la información radiométrica capturada por los censores para construir la temperatura superficial del área de estudio, dilucidando así sus diferencias para el momento en que haya sido capturada la imagen. Pero, al ser imágenes que no son capturadas necesariamente en los momentos de mayor retención y liberación de radiación por parte de los materiales urbanos, es difícil poder hacer una caracterización lo suficientemente representativa respecto a las diferencias térmicas de las ICUs y su distribución en la ciudad.</p>
+<p><strong>Problema de investigacion</strong></p>
+<p>La presente propuesta de investigación, tiene por objetivo realizar una caracterización de las Islas de Calor Urbano (ICUs) al interior del Área Metropolitana de Santiago (AMS), mediante la construcción de un delta sobre la temperatura superficial diurna y nocturna a partir de imágenes satelitales Aster, para los años 2005, 2010, 2015 y 2020.</p>
+<p>En primera instancia, observar las diferencias térmicas en los diferentes materiales urbanos entre el día y la noche, nos puede permitir observar las diferencias entre las temperaturas al interior de la ciudad y la distribución que estas tienen, logrando así, caracterizar de manera representativa con la dinamica climatica , la presencia de ICUs y sectores críticos al interior de la ciudad.</p>
+<p>Una vez caracterizadas las ICUs, se pretende comparar la evolución que estas han tenido entre los años mencionados, para así poder contrastar como ha variado la situación climática de la ciudad en el último tiempo.</p>
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-andresfelipedeltoroperezIslasCalorUrbano2023" class="csl-entry" role="listitem">
+Andrés Felipe Del Toro Pérez, Libia Liliana Julio Galvis, Pedro Luis Payares Ramos, and Hugo Alberto Villadiego Martinez. 2023. <span>“Islas de Calor Urbano En El Municipio de <span>Santa Cruz</span> de <span>Lorica</span>, <span>Colombia</span>, Entre Los a<span>ñ</span>os 2001, 2007 y 2021, Caso de Aplicaci<span>ó</span>n Con Im<span>á</span>genes Satelitales <span>ASTER</span>.”</span> <em>Revista Environment &amp;Amp; Technology</em>. <a href="https://doi.org/10.56205/ret.4-1.5">https://doi.org/10.56205/ret.4-1.5</a>.
+</div>
+<div id="ref-danielmontaner-fernandezSpatioTemporalVariationUrban2020" class="csl-entry" role="listitem">
+Daniel Montaner-Fernández, Daniel Montaner-Fernández, Luis Morales, Luis Morales-Salinas, Luis Morales-Salinas, Sobrino Sobrino, José A. Sobrino, et al. 2020. <span>“Spatio-<span>Temporal Variation</span> of the <span>Urban Heat Island</span> in <span>Santiago</span>, <span>Chile</span> During <span>Summers</span> 2005-2017.”</span> <em>Remote Sensing</em> 12: 3345.
+</div>
+<div id="ref-marcoa.penaRelationshipsRemotelySensed2008" class="csl-entry" role="listitem">
+Marco A. Peña, and Marco A. Peña. 2008. <span>“Relationships Between Remotely Sensed Surface Parameters Associated with the Urban Heat Sink Formation in <span>Santiago</span>, <span>Chile</span>.”</span> <em>Journal of Remote Sensing</em> 29 (15): 4385–4404. <a href="https://doi.org/10.1080/01431160801908137">https://doi.org/10.1080/01431160801908137</a>.
+</div>
+<div id="ref-muhammadfahadbaqaCharacterizingSpatiotemporalVariations2022" class="csl-entry" role="listitem">
+Muhammad Fahad Baqa, Muhammad Fahad Baqa, Linlin Lu, Linlin Lu, Lin-lin Lu, Chen Fang, Fang Chen, et al. 2022. <span>“Characterizing <span>Spatiotemporal Variations</span> in the <span>Urban Thermal Environment Related</span> to <span>Land Cover Changes</span> in <span>Karachi</span>, <span>Pakistan</span>, from 2000 to 2020.”</span> <em>Remote Sensing</em> 14 (9): 2164–64. <a href="https://doi.org/10.3390/rs14092164">https://doi.org/10.3390/rs14092164</a>.
+</div>
+<div id="ref-qureshiHeatVulnerabilityIndex2016" class="csl-entry" role="listitem">
+Qureshi, Salman, Luis Inostroza, Luis Inostroza, Massimo Palme, Massimo Palme, Francisco de la Barrera, Francisco Barrera, and Francisco de la Barrera. 2016. <span>“A <span>Heat Vulnerability Index</span>: <span>Spatial Patterns</span> of <span>Exposure</span>, <span>Sensitivity</span> and <span>Adaptive Capacity</span> for <span>Santiago</span> de <span>Chile</span>.”</span> <em>PLOS ONE</em> 11 (9). <a href="https://doi.org/10.1371/journal.pone.0162464">https://doi.org/10.1371/journal.pone.0162464</a>.
+</div>
+<div id="ref-sarricoleaespinozaEstudioIslaCalor2014" class="csl-entry" role="listitem">
+Sarricolea Espinoza, Pablo, and Javier Martín-Vide. 2014b. <span>“El Estudio de La <span>Isla</span> de <span>Calor Urbana</span> de <span>Superficie</span> Del <span class="nocase"><span>Á</span>rea Metropolitana</span> de <span>Santiago</span> de <span>Chile</span> Con Im<span>á</span>genes <span>Terra-MODIS</span> y <span class="nocase">An<span class="nocase">á</span>lisis</span> de <span>Componentes Principales</span>.”</span> <em>Revista de Geograf<span>í</span>a Norte Grande</em>, no. 57 (May): 123–41. <a href="https://doi.org/10.4067/S0718-34022014000100009">https://doi.org/10.4067/S0718-34022014000100009</a>.
+</div>
+<div id="ref-sarricoleaespinozaEstudioIslaCalor2014a" class="csl-entry" role="listitem">
+———. 2014a. <span>“El Estudio de La <span>Isla</span> de <span>Calor Urbana</span> de <span>Superficie</span> Del <span class="nocase"><span>Á</span>rea Metropolitana</span> de <span>Santiago</span> de <span>Chile</span> Con Im<span>á</span>genes <span>Terra-MODIS</span> y <span class="nocase">An<span class="nocase">á</span>lisis</span> de <span>Componentes Principales</span>.”</span> <em>Revista de Geograf<span>í</span>a Norte Grande</em>, no. 57 (May): 123–41. <a href="https://doi.org/10.4067/S0718-34022014000100009">https://doi.org/10.4067/S0718-34022014000100009</a>.
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
